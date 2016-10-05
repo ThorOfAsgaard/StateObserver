@@ -3,5 +3,3 @@
  */
 'use strict';
 var StateObserver = require('./stateObserver');
-
-console.log("testing");

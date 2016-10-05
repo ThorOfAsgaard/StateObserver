@@ -3,16 +3,19 @@
  */
 
 module.exports = function(grunt) {
-    var webpack = require("webpack");
-    var webpackConfig = require("./webpack.config.js");
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         webpack: {
-            options: webpackConfig,
-            // build: {
-            //
-            // }
+            main: {
+                entry:"./src/main.js",
+                output: {
+                    path: "./bin/",
+                    // filename:"[hash].js"
+                    filename:"app.bundle.js"
+                }
+            },
+
         },
         uglify: {
             options: {
