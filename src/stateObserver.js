@@ -27,7 +27,6 @@ StateObserver.prototype = {
      * @type {{__done: boolean, showing: null, heroScrolling: boolean}}
      * @private
      */
-
     __state: {},
     __privateState: {
         __done: true
@@ -140,9 +139,17 @@ StateObserver.prototype = {
             self.handlers[x]();
         }
     },
+    /**
+     *
+     * @param fn
+     */
     subscribe: function (fn) {
         this.handlers.push(fn);
     },
+    /**
+     *
+     * @param fn
+     */
     unsubscribe: function (fn) {
         this.handlers = this.handlers.filter(
             function (item) {
