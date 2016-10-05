@@ -5,7 +5,7 @@
 // var $ = jQuery;
 $(function () {
 
-    $.getScript('../src/stateObserver.js');
+    $.getScript('../src/StateObserver.js');
     QUnit.module("StateObserver");
 
     QUnit.test("Setting and Deleting State Properties", function (assert) {
