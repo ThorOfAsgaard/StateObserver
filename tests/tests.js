@@ -1,7 +1,8 @@
 /**
  * Created by C14502 on 10/4/2016.
  */
-
+// var jQuery = require('../node_modules/jquery/dist/jquery.min');
+// var $ = jQuery;
 $(function () {
 
     $.getScript('../src/stateObserver.js');
