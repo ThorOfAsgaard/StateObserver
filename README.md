@@ -1,7 +1,7 @@
 # StateObserver
 
 ## An Extensible State Observer to help manage sanity
-#### Author: Nick Tallmon
+#### Author: Thor Tallmon
 #### Email: thor@asgaardianworkshop.com
 #### License: MIT
 
