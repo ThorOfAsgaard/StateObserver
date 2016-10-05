@@ -14,19 +14,12 @@
  * stateObserver.set({});
  */
 
-// module.exports = function() {
-
 function StateObserver() {
     'use strict';
     this.handlers = [];
 }
 StateObserver.prototype = {
     /**
-     * This, in addition to setState and getState create a simple
-     * State-enforcement mechanism, the concept is simple, use this to control states
-     * for things that might otherwise be messed up via asynchronous callbacks.
-     * This is extensible to track anything you like to.
-     *
      * Acceptable types:
      * * Primitives
      * * Methods

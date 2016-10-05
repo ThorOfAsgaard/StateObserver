@@ -2,7 +2,7 @@
   "name": "stateobserver",
   "version": "1.0.0",
   "description": "An extensible StateObserver to help keep you sane",
-  "main": "stateObserver.js",
+  "main": "src/main.js",
   "directories": {
     "test": "tests"
   },
@@ -27,6 +27,13 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-uglify": "^2.0.0",
-    "webpack": "^1.13.2"
+    "grunt-webpack": "^1.0.16",
+    "mocha": "^3.1.0",
+    "qunit-cli": "^0.2.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
   }
 }
